@@ -5,4 +5,5 @@ Posit Connect Cloud Test
 ## generating a manifest.json file
 
 library(rsconnect)
+
 writeManifest(appPrimaryDoc = 'posit_connect_test.qmd')
